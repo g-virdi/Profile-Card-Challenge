@@ -3,6 +3,12 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: #dce0dd;
+}
+
 .outerDiv {
   height: 100vh;
   overflow: hidden;
@@ -26,7 +32,7 @@ body {
 .card {
   z-index: 1;
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 40%;
   width: 22rem;
 }
@@ -57,10 +63,36 @@ body {
 
 .numbers {
   display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-#name {
+#bioName {
+  display: inline-block;
+  font-size: 20px;
   margin-bottom: 1rem;
+}
+
+#age {
+  color: hsl(227, 10%, 46%);
+}
+
+#city {
+  display: inline-block;
+  color: hsl(227, 10%, 46%);
+  margin-bottom: 1rem;
+}
+
+.numberSpan {
+  display: inline-block;
+  font-size: 110%;
+  padding-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.socialKeyword {
+  color: hsl(227, 10%, 46%);
+  font-size: 13px;
 }
 
 .attribution {
