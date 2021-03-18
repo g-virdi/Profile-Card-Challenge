@@ -1,6 +1,72 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.outerDiv {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-pattern1 {
+  position: relative;
+  top: -30rem;
+  left: -15rem;
+  transform: rotate(90deg);
+  position: relative;
+}
+
+.bg-pattern2 {
+  overflow: hidden;
+  position: relative;
+  top: -40rem;
+  left: 50rem;
+}
+
+.card {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 22rem;
+}
+
+.card-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
+}
+
+.card-picture {
+  z-index: 2;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+.bio {
+  background-color: white;
+  height: 10rem;
+  width: auto;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.numbers {
+  display: inline-block;
+}
+
+#name {
+  margin-bottom: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: relative;
 }
 
 .attribution a {
