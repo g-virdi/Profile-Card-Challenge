@@ -41,6 +41,7 @@ hr {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .card-picture {
@@ -51,12 +52,19 @@ hr {
   left: 40%;
 }
 
+.circle {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 1px #fff;
+}
+
 .bio {
   background-color: white;
   height: 10rem;
   width: auto;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  margin-top: 0;
   padding-top: 5rem;
   text-align: center;
 }
@@ -92,7 +100,7 @@ hr {
 
 .socialKeyword {
   color: hsl(227, 10%, 46%);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .attribution {
